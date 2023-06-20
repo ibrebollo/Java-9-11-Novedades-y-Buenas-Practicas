@@ -4,6 +4,10 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.Iterator;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 public class AppMain {
 
@@ -27,8 +31,12 @@ public class AppMain {
 		//jsonplaceholder.typicode.com 
 		
 		// Recuperar y mostrar el nombre de los usuarios a partir del String recuperado del body transformar a objeto json -> Lo hacemos en el Ejercicio6
-//		ObjectMapper objectMapper = new ObjectMapper();
-//        JsonNode jsonNode = objectMapper.readTree(responseBodyStr);
+		JSONArray jsonArray = new JSONArray(respuesta.body());
+		for (Object obj: jsonArray) {
+			JSONObject jsonObject = new JSONObject(obj);
+			System.out.println(jsonObject.get("name"));
+			
+		}
 
 	}
 
