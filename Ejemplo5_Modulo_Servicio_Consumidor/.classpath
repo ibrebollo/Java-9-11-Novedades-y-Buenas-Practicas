@@ -6,12 +6,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Ejemplo3_Modulo_Servicio_Interface">
+	<classpathentry combineaccessrules="false" kind="src" path="/Ejemplo04_Modulo_Servicio_Proveedor">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/Ejemplo4_Modulo_Servicio_Proveedor">
+	<classpathentry combineaccessrules="false" kind="src" path="/Ejemplo03_Modulo_Servicio_Interface">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
