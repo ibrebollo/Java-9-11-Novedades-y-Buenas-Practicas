@@ -8,7 +8,8 @@ import com.viewnext.business.ItfzCalculadora;
 public class AppMain {
 
 	public static void main(String[] args) {
-		var prueba = 200; // Inferencia de tipos usando palabra reservada "var" tal y como se usa en javascript. 
+		var prueba = 200; // JAVA 10: Inferencia de tipos usando palabra reservada "var" tal y como se usa en javascript. 
+		// Solo se puede usar en variables LOCALES. 
 		
 		// No se puede aplicar a variables sin inicializar o nulas, por ejemplo
 		// var sin; 
